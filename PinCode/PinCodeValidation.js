@@ -7,7 +7,7 @@ function validatePIN(pin){
 }
 try{
     validatePIN("533274");   //valid
-    validatePIN("A47869");  //invalid - PIN cannot contain alphabet
+    validatePIN("47869A");  //invalid - PIN cannot contain alphabet
 }catch(e){
     console.error(e);
 }
